@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: #888888;
+}
+
+.po-wi {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.main-title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.main-title h2 {
+  color: #555555;
+}
+
+.po-p {
+  text-align: center;
+}
+
+.foo {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+
+.po-p img{
+  width: 50%;
+  height: auto;
+}
+
+.po-p img:hover {
+  opacity: 0.8;
+  transition: all .8s;
+}
+
+
+
+.p-title {
+  color: #555555;
+}
+
