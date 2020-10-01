@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+body {
+  background: url(doto.png);
+  
+}
+
 p {
   color: #888888;
 }
@@ -15,25 +20,45 @@ p {
 .main-title {
   margin-top: 50px;
   margin-bottom: 50px;
+
 }
 
-.main-title h2 {
-  color: #555555;
+.title {
+  color: #888;
+  display: inline-block;
+  background: white;
+  padding: 10px 60px 10px 60px;
+  border-radius: 20px;
+  border: 2px solid #888;
 }
 
 .po-p {
   text-align: center;
 }
 
+.main {
+  width: 80%;
+  background: white;
+  margin: 0 auto;
+  padding: 40px 10px 10px 40px;
+  border-radius: 20px;
+  border: 2px solid #888;
+  margin-bottom: 100px;
+}
+
+.main img {
+  border: 1px solid #888;
+}
+
 .foo {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   margin-bottom: 50px;
 }
 
 
 .po-p img{
-  width: 50%;
+  width: 80%;
   height: auto;
 }
 
@@ -48,3 +73,32 @@ p {
   color: #555555;
 }
 
+.message {
+  width: 100%;
+  text-align: center;
+}
+.message p {
+  padding: 20px 60px 20px 60px;
+  background: white;
+  display: inline-block;
+  font-size: 30px;
+  margin-bottom: 50px;
+  border: 2px solid #888;
+  border-radius: 20px;
+}
+
+footer {
+  padding-bottom: 80px;
+  padding: 10px 20px 10px 20px;
+}
+
+.name {
+  color: #888;
+  display: inline-block;
+  margin-bottom: 50px;
+  border: 2px solid #888;
+  background: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  float: right;
+}
